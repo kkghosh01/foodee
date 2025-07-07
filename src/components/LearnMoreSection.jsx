@@ -38,7 +38,7 @@ const LearnMoreSection = () => {
         </p>
         <a
           href="#"
-          className="bg-black text-white mt-2 md:mt-10 px-4 py-2 rounded-full text-xs md:text-sm hover:bg-gray-800 transition"
+          className="bg-black text-white mt-2 md:mt-10 px-4 py-2 rounded-full text-xs md:text-sm hover:bg-[#ff7426] transition-colors duration-500 ease-in-out hover:shadow-lg"
         >
           Learn More
         </a>

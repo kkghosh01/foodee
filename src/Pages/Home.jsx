@@ -4,6 +4,9 @@ import Hero from "../components/Hero/Hero";
 import Loader from "./Loader";
 import RecipeSection from "../components/Cards/RecipeSection";
 import LearnMoreSection from "../components/LearnMoreSection";
+import InstagramCard from "../components/Cards/InstagramCard";
+import TryRecipeSection from "../components/Cards/TryRecipeSection";
+import SubscribeSection from "../components/Cards/SubscribeSection";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -23,6 +26,9 @@ const Home = () => {
       <CategoryCard />
       <RecipeSection />
       <LearnMoreSection />
+      <InstagramCard />
+      <TryRecipeSection />
+      <SubscribeSection />
     </div>
   );
 };

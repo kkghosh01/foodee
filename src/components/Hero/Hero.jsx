@@ -39,7 +39,7 @@ const Hero = () => {
             </div>
             <a
               href="#"
-              className="flex items-center gap-2 bg-black text-white px-4 py-2 rounded-full text-xs md:text-sm hover:bg-gray-800 transition"
+              className="flex items-center gap-2 bg-black text-white px-4 py-2 rounded-full text-xs md:text-sm hover:bg-[#ff7426] transition-colors duration-500 ease-in-out hover:shadow-lg"
             >
               View Recipes <FaRegPlayCircle size={16} />
             </a>

@@ -10,7 +10,7 @@ const containerVariants = {
   visible: (isSmall) => ({
     opacity: 1,
     transition: {
-      staggerChildren: isSmall ? 0.6 : 0.5,
+      staggerChildren: isSmall ? 0.5 : 0.3,
     },
   }),
 };

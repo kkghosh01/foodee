@@ -50,7 +50,7 @@ const Navbar = () => {
         <nav className="hidden md:block">
           <ul className="flex gap-8 text-md">
             {NavLinks.map((link, index) => (
-              <li key={index} className="hover:text-orange-500 transition">
+              <li key={index} className="hover:text-[#ff7426] transition">
                 <Link to={link.link}>{link.name}</Link>
               </li>
             ))}
