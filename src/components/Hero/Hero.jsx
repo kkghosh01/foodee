@@ -1,7 +1,7 @@
 import { GiAlarmClock, GiKnifeFork } from "react-icons/gi";
 import { FaRegPlayCircle } from "react-icons/fa";
 import { PiBookOpenTextDuotone } from "react-icons/pi";
-import heroImg from "../../assets/hero.png";
+import heroImg from "../../assets/hero.webp";
 
 const Hero = () => {
   return (

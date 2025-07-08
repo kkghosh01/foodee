@@ -1,6 +1,6 @@
 import { posts } from "../../data/posts";
-import foodeeImg from "../../assets/foodee.png";
-import heroImg from "../../assets/hero.png";
+import foodeeImg from "../../assets/foodee.webp";
+import heroImg from "../../assets/hero.webp";
 import { FaRegComment } from "react-icons/fa";
 import { IoPaperPlaneOutline } from "react-icons/io5";
 import { MdVerified } from "react-icons/md";

@@ -1,8 +1,7 @@
 import { recipes } from "../../data/recipes";
 // eslint-disable-next-line no-unused-vars
-import { motion, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
 
 // Animation Variants
 const cardVariant = {
@@ -11,37 +10,34 @@ const cardVariant = {
     opacity: 1,
     y: 0,
     transition: {
-      delay: i * 0.2,
-      duration: 0.6,
+      delay: i * 0.4,
+      duration: 0.8,
       ease: "easeOut",
     },
   }),
 };
 
 const TryRecipeSection = () => {
-  const controls = useAnimation();
-  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
-
-  useEffect(() => {
-    if (inView) {
-      controls.start("visible");
-    }
-  }, [inView, controls]);
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.05,
+  });
 
   return (
     <div ref={ref}>
-      <div className="max-w-[90%] m-auto py-15 mb-10 rounded-2xl text-center">
+      <div className="max-w-[90%] m-auto py-16 mb-10 rounded-2xl text-center">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
+          animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
           transition={{ duration: 0.5 }}
           className="text-4xl font-semibold mb-3"
         >
           Try Our Recipes
         </motion.h2>
+
         <motion.p
           initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
+          animate={inView ? { opacity: 1 } : { opacity: 0 }}
           transition={{ delay: 0.2, duration: 0.5 }}
           className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto"
         >
@@ -57,7 +53,7 @@ const TryRecipeSection = () => {
               custom={index}
               variants={cardVariant}
               initial="hidden"
-              animate={controls}
+              animate={inView ? "visible" : "hidden"}
             >
               <img
                 src={recipe.image}
@@ -65,7 +61,6 @@ const TryRecipeSection = () => {
                 className="w-full h-48 object-cover"
               />
 
-              {/* Fixed height box */}
               <div className="p-4 flex flex-col justify-between flex-grow">
                 <div>
                   <h3 className="text-xl font-semibold mb-2">{recipe.name}</h3>

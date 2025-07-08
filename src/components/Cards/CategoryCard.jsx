@@ -19,12 +19,12 @@ const CategoryCard = () => {
   };
 
   return (
-    <div className="w-[95%] max-w-screen-2xl mx-auto md:py-10 py-4 mt-8 relative">
+    <div className="max-w-[90%] w-full mx-auto md:py-10 py-4 mt-8 relative overflow-hidden">
       <h2 className="text-2xl font-bold mb-8">Categories</h2>
 
       {/* Left Arrow */}
       <button
-        className="absolute -left-4 top-1/2 transform -translate-y-1/2 z-10 bg-white shadow-md rounded-full p-2 hover:bg-gray-100"
+        className="absolute -left-1 md:-left-0.5 hidden md:block top-1/2 transform -translate-y-1/2 z-10 bg-white shadow-md rounded-full p-2 hover:bg-gray-100"
         onClick={handlePrev}
       >
         <FaChevronLeft />
@@ -32,7 +32,7 @@ const CategoryCard = () => {
 
       {/* Right Arrow */}
       <button
-        className="absolute -right-4 top-1/2 transform -translate-y-1/2 z-10 bg-white shadow-md rounded-full p-2 hover:bg-gray-100"
+        className="absolute -right-1 md:-right-0.5 hidden md:block  top-1/2 transform -translate-y-1/2 z-10 bg-white shadow-md rounded-full p-2 hover:bg-gray-100"
         onClick={handleNext}
       >
         <FaChevronRight />
@@ -61,16 +61,14 @@ const CategoryCard = () => {
           1024: { slidesPerView: 5 },
           1100: { slidesPerView: 5.5 },
           1280: { slidesPerView: 6 },
-          1400: { slidesPerView: 6.5 },
+          1400: { slidesPerView: 7 },
           1536: { slidesPerView: 8 },
+          1620: { slidesPerView: 8.5 },
         }}
         style={{ paddingBottom: "20px" }}
       >
         {Categories.map((category, index) => (
-          <SwiperSlide
-            key={category.id}
-            style={{ width: "180px", height: "200px" }}
-          >
+          <SwiperSlide key={category.id}>
             <motion.div
               className="w-[150px] h-[150px] flex flex-col items-center justify-end rounded-xl shadow-md hover:shadow-xl transition-all duration-300 bg-white relative"
               style={{

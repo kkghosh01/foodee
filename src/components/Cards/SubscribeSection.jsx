@@ -11,12 +11,12 @@ const SubscribeSection = () => {
       transition={{ duration: 0.8, ease: "easeOut" }}
       viewport={{ once: true, amount: 0.4 }}
     >
-      <div className="max-w-[90%] m-auto py-15 mb-10 rounded-2xl bg-gradient-to-b from-regal-green-2 to-regal-green text-center relative overflow-hidden">
+      <div className="w-full max-w-[90%] mx-auto m-auto py-15 mb-10 rounded-2xl bg-gradient-to-b from-regal-green-2 to-regal-green text-center relative overflow-hidden overflow-x-hidden">
         {/* Animated Banner Left */}
         <motion.img
           src={bannerImg1}
           alt=""
-          className="w-60 absolute -right-16 -bottom-16 opacity-50"
+          className="w-40 md:w-60 absolute -right-16 -bottom-16 opacity-50"
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 0.5, x: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
@@ -27,7 +27,7 @@ const SubscribeSection = () => {
         <motion.img
           src={bannerImg2}
           alt=""
-          className="w-60 absolute -left-16 -bottom-16 opacity-50"
+          className="w-40 md:w-60 absolute -left-16 -bottom-16 opacity-50"
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 0.5, x: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}

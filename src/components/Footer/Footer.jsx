@@ -1,47 +1,57 @@
 import { Link } from "react-router-dom";
-import foodeeImg from "../../assets/foodee.png";
+import foodeeImg from "../../assets/foodee.webp";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { TiSocialFacebook, TiSocialTwitter } from "react-icons/ti";
 import { FaInstagram } from "react-icons/fa";
+import { scrollToTop } from "../../utils/scrollToTop";
 
 const Footer = () => {
+  const navLinks = [
+    { name: "Home", link: "/" },
+    { name: "Recipes", link: "/recipes" },
+    { name: "Blog", link: "/blog" },
+    { name: "Contact", link: "/contact" },
+    { name: "About us", link: "/about" },
+  ];
+
   return (
     <motion.div
-      className="m-auto py-10 bg-gradient-to-b from-regal-green-2 to-regal-green rounded-2xl text-gray-700"
+      className="m-auto py-10 bg-gradient-to-b from-regal-green-2 to-regal-green rounded-2xl text-gray-700 overflow-hidden"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       viewport={{ once: true, amount: 0.4 }}
     >
-      <footer className="max-w-7xl mx-auto px-6 py-10 flex flex-col md:flex-row justify-between items-start gap-10 flex-wrap">
+      <footer className="max-w-[90%] mx-auto px-6 py-10 flex flex-col md:flex-row justify-between items-center md:items-start gap-10 flex-wrap">
         {/* Logo Left */}
         <motion.div
           initial={{ opacity: 0, y: -40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <Link to="/">
+          <Link to="/" onClick={scrollToTop}>
             <img src={foodeeImg} alt="Foodee Logo" className="w-28 md:w-32" />
           </Link>
         </motion.div>
 
         {/* Quick Links */}
         <motion.div
-          className="flex flex-col items-start"
+          className="flex flex-col items-center md:items-start"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
           <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
           <ul className="space-y-1">
-            {["Home", "Recipes", "Blog", "Contact"].map((item, idx) => (
+            {navLinks.map(({ name, link }, idx) => (
               <li key={idx}>
                 <Link
-                  to={`/${item.toLowerCase()}`}
+                  to={link}
+                  onClick={scrollToTop}
                   className="hover:text-[#ff7426] transition"
                 >
-                  {item}
+                  {name}
                 </Link>
               </li>
             ))}
@@ -50,7 +60,7 @@ const Footer = () => {
 
         {/* Follow Us */}
         <motion.div
-          className="flex flex-col items-start"
+          className="flex flex-col items-center md:items-start"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.5 }}

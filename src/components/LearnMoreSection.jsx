@@ -4,7 +4,7 @@ import ctaImg from "../assets/chef.webp";
 
 const LearnMoreSection = () => {
   return (
-    <div className="w-[95%] max-w-screen-2xl mx-auto rounded-2xl flex flex-col md:flex-row justify-between items-center gap-6 min-h-[400px] mt-24 mb-10 px-6">
+    <div className="w-full max-w-[90%] mx-auto rounded-2xl flex flex-col md:flex-row justify-between items-center gap-6 min-h-[400px] mt-24 mb-10 px-6">
       {/* Image Section with animation */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}

@@ -6,6 +6,7 @@ import { RxCrossCircled } from "react-icons/rx";
 import { useState, useEffect } from "react";
 import ResposiveMenu from "./ResposiveMenu";
 import { Link } from "react-router-dom";
+import { scrollToTop } from "../../utils/scrollToTop";
 
 const Navbar = () => {
   const NavLinks = [
@@ -36,14 +37,14 @@ const Navbar = () => {
   return (
     // Full-width border container
     <div
-      className={`w-full border-b border-gray-300 shadow-sm fixed top-0 z-50 transition-transform duration-300 ${
+      className={`w-full mx-auto border-b border-gray-300 shadow-sm fixed top-0 z-50 transition-transform duration-300 ${
         showNavbar ? "translate-y-0" : "-translate-y-full"
       } bg-white`}
     >
       {/* Centered navbar content container */}
-      <section className="flex justify-between items-center w-[90%] m-auto h-20 px-4">
+      <section className="flex justify-between items-center w-full max-w-[95%] mx-auto m-auto h-20 px-4">
         <div>
-          <Link to={"/"}>
+          <Link to={"/"} onClick={scrollToTop}>
             <img src={foodeeImg} alt="logo" className="w-[90px]" />
           </Link>
         </div>
@@ -51,7 +52,9 @@ const Navbar = () => {
           <ul className="flex gap-8 text-md">
             {NavLinks.map((link, index) => (
               <li key={index} className="hover:text-[#ff7426] transition">
-                <Link to={link.link}>{link.name}</Link>
+                <Link to={link.link} onClick={scrollToTop}>
+                  {link.name}
+                </Link>
               </li>
             ))}
           </ul>
