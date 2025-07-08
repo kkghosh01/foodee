@@ -88,6 +88,7 @@ const CategoryCard = () => {
                 src={category.image}
                 alt={category.name}
                 className="w-24 h-24 object-cover absolute bottom-14 hover:bottom-15 rounded-full shadow-md transition-all duration-300"
+                loading="lazy"
               />
               <h3 className="text-lg font-semibold mt-16 py-2">
                 {category.name}

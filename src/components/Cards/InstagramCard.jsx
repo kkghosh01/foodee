@@ -72,6 +72,7 @@ const InstagramCard = () => {
                   src={foodeeImg}
                   alt="Avatar"
                   className="w-5 h-3 rounded-full"
+                  loading="lazy"
                 />
                 <div className="text-left">
                   <h4 className="text-sm font-semibold flex items-center gap-1">
@@ -88,6 +89,7 @@ const InstagramCard = () => {
               src={post.img}
               alt={`Instagram post ${idx + 1}`}
               className="w-full h-60 object-cover"
+              loading="lazy"
             />
 
             {/* Icons */}

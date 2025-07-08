@@ -63,6 +63,7 @@ const RecipeCard = () => {
                 src={recipe.image}
                 alt={recipe.name}
                 className="w-full h-60 object-cover rounded-t-lg transition-transform hover:scale-105"
+                loading="lazy"
               />
             </div>
             <h3 className="text-xl font-semibold mt-2">{recipe.name}</h3>

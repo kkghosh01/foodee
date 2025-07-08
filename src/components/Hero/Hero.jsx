@@ -52,6 +52,7 @@ const Hero = () => {
             src={heroImg}
             alt="Delicious Chicken Wings"
             className="w-full max-w-[250px] sm:max-w-[300px] md:max-w-[500px] mx-auto"
+            loading="lazy"
           />
         </div>
       </div>

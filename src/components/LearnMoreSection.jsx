@@ -17,6 +17,7 @@ const LearnMoreSection = () => {
           src={ctaImg}
           alt="Cooking Illustration"
           className="w-full max-w-[180px] md:max-w-[400px] h-auto"
+          loading="lazy"
         />
       </motion.div>
 
