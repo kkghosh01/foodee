@@ -7,6 +7,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Recipes from "./Pages/Recipes";
 import Blog from "./Pages/Blog";
 import Contact from "./Pages/Contact";
+import RecipeDetails from "./Pages/RecipeDetails";
 function App() {
   return (
     <div className="overflow-x-hidden">
@@ -16,6 +17,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/recipes" element={<Recipes />} />
+          <Route path="/recipes/:id" element={<RecipeDetails />} />
+          <Route path="*" element={<Recipes />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />

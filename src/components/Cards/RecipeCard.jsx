@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { GiAlarmClock, GiKnifeFork } from "react-icons/gi";
-import { recipes } from "../../data/recipes";
+
+import { Link } from "react-router-dom";
+import recipesData from "../../data/recipes.json";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -52,7 +54,7 @@ const RecipeCard = () => {
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
       >
-        {recipes.map((recipe) => (
+        {recipesData.map((recipe) => (
           <motion.div
             key={recipe.id}
             className="bg-gradient-to-t from-regal-green to-regal-green-2 rounded-lg shadow-md p-4 flex flex-col justify-between hover:shadow-xl"
@@ -61,15 +63,20 @@ const RecipeCard = () => {
             <div className="overflow-hidden rounded-t-lg">
               <img
                 src={recipe.image}
-                alt={recipe.name}
+                alt={recipe.title}
                 className="w-full h-60 object-cover rounded-t-lg transition-transform hover:scale-105"
                 loading="lazy"
               />
             </div>
-            <h3 className="text-xl font-semibold mt-2">{recipe.name}</h3>
+            <Link
+              to={`/recipes/${recipe.id}`}
+              className="font-semibold text-xl hover:underline mt-2"
+            >
+              <h3>{recipe.title}</h3>
+            </Link>
             <div className="flex justify-between items-center mt-6">
               <span className="text-black flex items-center gap-1">
-                <GiAlarmClock /> {recipe.time}
+                <GiAlarmClock /> {recipe.prepTime} min
               </span>
               <span className="text-black flex items-center gap-1">
                 <GiKnifeFork /> {recipe.category}

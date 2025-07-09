@@ -1,0 +1,481 @@
+[
+  {
+    "id": "blueberry-smoothie",
+    "title": "Blueberry Smoothie",
+    "description": "A refreshing blueberry smoothie packed with nutrients.",
+    "image": "/image/blueberry.webp",
+    "prepTime": "10 mins",
+    "cookTime": "5 mins",
+    "servings": "2",
+    "difficulty": "Easy",
+    "category": "Fast Food",
+    "ingredients": [
+      "1 cup blueberries",
+      "1 banana",
+      "1 cup yogurt",
+      "1/2 cup milk",
+      "1 tablespoon honey"
+    ],
+    "steps": [
+      {
+        "title": "Wash the blueberries and banana.",
+        "description": "Ensure the blueberries are fresh and the banana is ripe for the best flavor."
+      },
+      {
+        "title": "Blend until smooth and creamy.",
+        "description": "In a blender, combine blueberries, banana, yogurt, milk, and honey."
+      },
+      {
+        "title": "Serve immediately.",
+        "description": "Pour the smoothie into glasses and enjoy chilled."
+      },
+      {
+        "title": "Optional toppings.",
+        "description": "You can add extra blueberries or a sprinkle of granola on top for added texture."
+      }
+    ],
+    "nutrition": {
+      "calories": 200,
+      "fat": 2,
+      "carbohydrates": 45,
+      "protein": 5,
+      "sodium": 50,
+      "fiber": 3
+    }
+  },
+  {
+    "id": "cheese-burger",
+    "title": "Cheese Burger",
+    "description": "A classic cheese burger with a juicy patty and melted cheese.",
+    "image": "/image/burger.webp",
+    "prepTime": "15 mins",
+    "cookTime": "10 mins",
+    "servings": "4",
+    "difficulty": "Medium",
+    "category": "Smoothies",
+    "ingredients": [
+      "4 burger buns",
+      "4 beef patties",
+      "4 slices of cheese",
+      "Lettuce leaves",
+      "Tomato slices",
+      "Onion slices",
+      "Ketchup and mustard"
+    ],
+    "steps": [
+      {
+        "title": "Cook the beef patties.",
+        "description": "Heat a grill or skillet over medium heat. Cook the patties for about 5 minutes on each side until they are browned and cooked through."
+      },
+      {
+        "title": "Add cheese to the patties.",
+        "description": "Place a slice of cheese on each patty during the last minute of cooking to let it melt."
+      },
+      {
+        "title": "Assemble the burgers.",
+        "description": "Place each patty on a burger bun and top with lettuce, tomato, onion, ketchup, and mustard."
+      },
+      {
+        "title": "Serve hot.",
+        "description": "Enjoy your cheese burger with fries or a side salad."
+      }
+    ],
+    "nutrition": {
+      "calories": 500,
+      "fat": 25,
+      "carbohydrates": 40,
+      "protein": 30,
+      "sodium": 800,
+      "fiber": 2
+    }
+  },
+  {
+    "id": "mayonnaise-salad",
+    "title": "Mayonnaise Salad",
+    "description": "A creamy mayonnaise salad with fresh vegetables.",
+    "image": "/image/salad.webp",
+    "prepTime": "15 mins",
+    "cookTime": "0 mins",
+    "servings": "4",
+    "difficulty": "Easy",
+    "category": "Salads",
+    "ingredients": [
+      "2 cups mixed salad greens",
+      "1 cup cherry tomatoes, halved",
+      "1 cucumber, diced",
+      "1/2 red onion, thinly sliced",
+      "1/2 cup mayonnaise",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      {
+        "title": "Prepare the vegetables.",
+        "description": "Wash and chop the salad greens, halve the cherry tomatoes, dice the cucumber, and slice the red onion."
+      },
+      {
+        "title": "Mix the salad.",
+        "description": "In a large bowl, combine the salad greens, tomatoes, cucumber, and onion."
+      },
+      {
+        "title": "Add mayonnaise.",
+        "description": "Drizzle mayonnaise over the salad and toss gently to coat all ingredients evenly."
+      },
+      {
+        "title": "Season and serve.",
+        "description": "Season with salt and pepper to taste. Serve immediately or chill in the refrigerator for 30 minutes before serving."
+      }
+    ],
+    "nutrition": {
+      "calories": 250,
+      "fat": 20,
+      "carbohydrates": 10,
+      "protein": 3,
+      "sodium": 300,
+      "fiber": 2
+    }
+  },
+  {
+    "id": "chicken-meatballs",
+    "title": "Chicken Meatballs",
+    "description": "Juicy chicken meatballs served with a tangy sauce.",
+    "image": "/image/meatball.webp",
+    "prepTime": "20 mins",
+    "cookTime": "25 mins",
+    "servings": "4",
+    "difficulty": "Medium",
+    "category": "Pasta",
+    "ingredients": [
+      "1 lb ground chicken",
+      "1/2 cup breadcrumbs",
+      "1/4 cup grated Parmesan cheese",
+      "1 egg",
+      "2 cloves garlic, minced",
+      "Salt and pepper to taste",
+      "1 cup marinara sauce"
+    ],
+    "steps": [
+      {
+        "title": "Preheat the oven.",
+        "description": "Preheat your oven to 400°F (200°C)."
+      },
+      {
+        "title": "Mix the meatball ingredients.",
+        "description": "In a large bowl, combine ground chicken, breadcrumbs, Parmesan cheese, egg, minced garlic, salt, and pepper. Mix until well combined."
+      },
+      {
+        "title": "Form the meatballs.",
+        "description": "Shape the mixture into small meatballs, about 1 inch in diameter."
+      },
+      {
+        "title": "Bake the meatballs.",
+        "description": "Place the meatballs on a baking sheet lined with parchment paper and bake for 20-25 minutes until cooked through."
+      },
+      {
+        "title": "Serve with marinara sauce.",
+        "description": "Heat the marinara sauce in a saucepan and serve it over the baked meatballs."
+      }
+    ],
+    "nutrition": {
+      "calories": 300,
+      "fat": 10,
+      "carbohydrates": 20,
+      "protein": 25,
+      "sodium": 400,
+      "fiber": 1
+    }
+  },
+  {
+    "id": "strawberry-oatmeal",
+    "title": "Strawberry Oatmeal",
+    "description": "A warm and comforting strawberry oatmeal for breakfast.",
+    "image": "/image/oatmeal.webp",
+    "prepTime": "5 mins",
+    "cookTime": "10 mins",
+    "servings": "2",
+    "difficulty": "Easy",
+    "category": "Breakfast",
+    "ingredients": [
+      "1 cup rolled oats",
+      "2 cups water or milk",
+      "1 cup strawberries, sliced",
+      "1 tablespoon honey or maple syrup",
+      "1/4 teaspoon cinnamon"
+    ],
+    "steps": [
+      {
+        "title": "Cook the oats.",
+        "description": "In a saucepan, bring water or milk to a boil. Add rolled oats and reduce heat to low. Cook for about 5 minutes, stirring occasionally."
+      },
+      {
+        "title": "Add strawberries and sweetener.",
+        "description": "Stir in sliced strawberries, honey or maple syrup, and cinnamon. Cook for another 2-3 minutes until the strawberries are softened."
+      },
+      {
+        "title": "Serve hot.",
+        "description": "Pour the oatmeal into bowls and enjoy warm."
+      }
+    ],
+    "nutrition": {
+      "calories": 250,
+      "fat": 4,
+      "carbohydrates": 45,
+      "protein": 8,
+      "sodium": 50,
+      "fiber": 5
+    }
+  },
+  {
+    "id": "chicken-fried-rice",
+    "title": "Chicken Fried Rice",
+    "description": "A quick and easy chicken fried rice with vegetables.",
+    "image": "/image/rice.webp",
+    "prepTime": "10 mins",
+    "cookTime": "15 mins",
+    "servings": "4",
+    "difficulty": "Medium",
+    "category": "lunch",
+    "ingredients": [
+      "2 cups cooked rice",
+      "1 cup diced chicken breast",
+      "1 cup mixed vegetables (carrots, peas, corn)",
+      "2 eggs, beaten",
+      "3 tablespoons soy sauce",
+      "2 tablespoons vegetable oil",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      {
+        "title": "Heat oil in a pan.",
+        "description": "In a large skillet or wok, heat vegetable oil over medium-high heat."
+      },
+      {
+        "title": "Cook the chicken.",
+        "description": "Add diced chicken breast and cook until browned and cooked through, about 5-7 minutes."
+      },
+      {
+        "title": "Add vegetables and rice.",
+        "description": "Stir in mixed vegetables and cooked rice. Cook for another 3-4 minutes, stirring frequently."
+      },
+      {
+        "title": "Add eggs and seasonings.",
+        "description": "Push the rice mixture to one side of the pan, pour beaten eggs into the other side, and scramble them. Once cooked, mix everything together. Add soy sauce, salt, and pepper to taste."
+      },
+      {
+        "title": "Serve hot.",
+        "description": "Serve the chicken fried rice hot, garnished with green onions if desired."
+      }
+    ],
+    "nutrition": {
+      "calories": 400,
+      "fat": 10,
+      "carbohydrates": 60,
+      "protein": 20,
+      "sodium": 800,
+      "fiber": 3
+    }
+  },
+  {
+    "id": "rosted-salmon",
+    "title": "Roasted Salmon",
+    "description": "A healthy and flavorful roasted salmon dish.",
+    "image": "/image/roastedFish.webp",
+    "prepTime": "10 mins",
+    "cookTime": "20 mins",
+    "servings": "2",
+    "difficulty": "Easy",
+    "category": "Seafood",
+    "ingredients": [
+      "2 salmon fillets",
+      "2 tablespoons olive oil",
+      "1 lemon, sliced",
+      "Salt and pepper to taste",
+      "Fresh herbs (dill or parsley) for garnish"
+    ],
+    "steps": [
+      {
+        "title": "Preheat the oven.",
+        "description": "Preheat your oven to 400°F (200°C)."
+      },
+      {
+        "title": "Prepare the salmon.",
+        "description": "Place the salmon fillets on a baking sheet lined with parchment paper. Drizzle with olive oil and season with salt and pepper."
+      },
+      {
+        "title": "Add lemon slices.",
+        "description": "Place lemon slices on top of the salmon fillets."
+      },
+      {
+        "title": "Roast in the oven.",
+        "description": "Roast the salmon in the preheated oven for about 15-20 minutes until cooked through and flaky."
+      },
+      {
+        "title": "Garnish and serve.",
+        "description": "Garnish with fresh herbs before serving."
+      }
+    ],
+    "nutrition": {
+      "calories": 350,
+      "fat": 20,
+      "carbohydrates": 0,
+      "protein": 35,
+      "sodium": 100,
+      "fiber": 0
+    }
+  },
+  {
+    "id": "mutton-curry",
+    "title": "Mutton Curry",
+    "description": "A rich and flavorful mutton curry with spices.",
+    "image": "/image/mutton.webp",
+    "prepTime": "20 mins",
+    "cookTime": "1 hour",
+    "servings": "4",
+    "difficulty": "Medium",
+    "category": "Dinner",
+    "ingredients": [
+      "500g mutton, cut into pieces",
+      "2 onions, finely chopped",
+      "2 tomatoes, pureed",
+      "1 cup yogurt",
+      "2 tablespoons ginger-garlic paste",
+      "2-3 green chilies, slit",
+      "1 teaspoon turmeric powder",
+      "1 teaspoon red chili powder",
+      "1 teaspoon garam masala",
+      "Salt to taste",
+      "Fresh coriander leaves for garnish"
+    ],
+    "steps": [
+      {
+        "title": "Heat oil in a pot.",
+        "description": "In a large pot, heat oil over medium heat. Add chopped onions and sauté until golden brown."
+      },
+      {
+        "title": "Add ginger-garlic paste and spices.",
+        "description": "Stir in ginger-garlic paste, turmeric powder, red chili powder, and salt. Cook for a few minutes until fragrant."
+      },
+      {
+        "title": "Add mutton pieces.",
+        "description": "Add mutton pieces to the pot and cook until they are browned on all sides."
+      },
+      {
+        "title": "Add tomato puree and yogurt.",
+        "description": "Stir in the tomato puree and yogurt. Cook for about 30-40 minutes until the mutton is tender."
+      },
+      {
+        "title": "Finish with garam masala.",
+        "description": "Sprinkle garam masala over the curry and mix well. Garnish with fresh coriander leaves before serving."
+      }
+    ],
+    "nutrition": {
+      "calories": 600,
+      "fat": 40,
+      "carbohydrates": 10,
+      "protein": 50,
+      "sodium": 500,
+      "fiber": 2
+    }
+  },
+  {
+    "id": "rosted-salmon-special",
+    "title": "Roasted Salmon",
+    "description": "A healthy and flavorful roasted salmon dish.",
+    "image": "/image/roastedFish.webp",
+    "prepTime": "10 mins",
+    "cookTime": "20 mins",
+    "servings": "2",
+    "difficulty": "Easy",
+    "category": "Seafood",
+    "ingredients": [
+      "2 salmon fillets",
+      "2 tablespoons olive oil",
+      "1 lemon, sliced",
+      "Salt and pepper to taste",
+      "Fresh herbs (dill or parsley) for garnish"
+    ],
+    "steps": [
+      {
+        "title": "Preheat the oven.",
+        "description": "Preheat your oven to 400°F (200°C)."
+      },
+      {
+        "title": "Prepare the salmon.",
+        "description": "Place the salmon fillets on a baking sheet lined with parchment paper. Drizzle with olive oil and season with salt and pepper."
+      },
+      {
+        "title": "Add lemon slices.",
+        "description": "Place lemon slices on top of the salmon fillets."
+      },
+      {
+        "title": "Roast in the oven.",
+        "description": "Roast the salmon in the preheated oven for about 15-20 minutes until cooked through and flaky."
+      },
+      {
+        "title": "Garnish and serve.",
+        "description": "Garnish with fresh herbs before serving."
+      }
+    ],
+    "nutrition": {
+      "calories": 350,
+      "fat": 20,
+      "carbohydrates": 0,
+      "protein": 35,
+      "sodium": 100,
+      "fiber": 0
+    }
+  },
+  {
+    "id": "mutton-curry-special",
+    "title": "Mutton Curry",
+    "description": "A rich and flavorful mutton curry with spices.",
+    "image": "/image/mutton.webp",
+    "prepTime": "20 mins",
+    "cookTime": "1 hour",
+    "servings": "4",
+    "difficulty": "Medium",
+    "category": "Dinner",
+    "ingredients": [
+      "500g mutton, cut into pieces",
+      "2 onions, finely chopped",
+      "2 tomatoes, pureed",
+      "1 cup yogurt",
+      "2 tablespoons ginger-garlic paste",
+      "2-3 green chilies, slit",
+      "1 teaspoon turmeric powder",
+      "1 teaspoon red chili powder",
+      "1 teaspoon garam masala",
+      "Salt to taste",
+      "Fresh coriander leaves for garnish"
+    ],
+    "steps": [
+      {
+        "title": "Heat oil in a pot.",
+        "description": "In a large pot, heat oil over medium heat. Add chopped onions and sauté until golden brown."
+      },
+      {
+        "title": "Add ginger-garlic paste and spices.",
+        "description": "Stir in ginger-garlic paste, turmeric powder, red chili powder, and salt. Cook for a few minutes until fragrant."
+      },
+      {
+        "title": "Add mutton pieces.",
+        "description": "Add mutton pieces to the pot and cook until they are browned on all sides."
+      },
+      {
+        "title": "Add tomato puree and yogurt.",
+        "description": "Stir in the tomato puree and yogurt. Cook for about 30-40 minutes until the mutton is tender."
+      },
+      {
+        "title": "Finish with garam masala.",
+        "description": "Sprinkle garam masala over the curry and mix well. Garnish with fresh coriander leaves before serving."
+      }
+    ],
+    "nutrition": {
+      "calories": 600,
+      "fat": 40,
+      "carbohydrates": 10,
+      "protein": 50,
+      "sodium": 500,
+      "fiber": 2
+    }
+  }
+]
