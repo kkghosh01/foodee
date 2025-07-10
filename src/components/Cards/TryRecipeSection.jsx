@@ -67,7 +67,7 @@ const TryRecipeSection = () => {
                   <p className="text-gray-600">{recipe.description}</p>
                 </div>
 
-                <button className="mt-4 bg-black text-white px-6 py-1.5 rounded-full hover:bg-[#ff7426] transition-colors duration-500 ease-in-out hover:shadow-lg">
+                <button className="mt-4 bg-black text-white px-6 py-1.5 cursor-pointer rounded-full hover:bg-[#ff7426] transition-colors duration-500 ease-in-out hover:shadow-lg">
                   View Recipe
                 </button>
               </div>

@@ -131,7 +131,7 @@ const InstagramCard = () => {
       <motion.button
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
-        className="mt-10 bg-black text-white px-6 py-3 rounded-full hover:bg-[#ff7426] transition-colors duration-500 ease-in-out hover:shadow-lg"
+        className="mt-10 bg-black text-white px-6 py-3 cursor-pointer rounded-full hover:bg-[#ff7426] transition-colors duration-500 ease-in-out hover:shadow-lg"
       >
         Visit Our Instagram
       </motion.button>

@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import CategoryCard from "../components/Cards/CategoryCard";
 import Hero from "../components/Hero/Hero";
-import Loader from "./Loader";
 import RecipeSection from "../components/Cards/RecipeSection";
 import LearnMoreSection from "../components/LearnMoreSection";
 import InstagramCard from "../components/Cards/InstagramCard";

@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "full-guide-becoming-professional-chef",
+    "title": "Full Guide to Becoming a Professional Chef",
+    "author": {
+      "name": "John Dorsey",
+      "published_date": "2025-07-10"
+    },
+    "cover_image": "/blogImg/blog-img1.webp",
+    "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin slug felis efficitur, fermentum sapien nec, feugiat mi.",
+    "qa_sections": [
+      {
+        "question": "How did you start out in the food industry?",
+        "answer": "I started working in a small local diner when I was 16, washing dishes and helping out wherever I could."
+      },
+      {
+        "question": "What do you like most about your job?",
+        "answer": "Every day I get to experiment with ingredients and create something that brings people joy."
+      },
+      {
+        "question": "Do you cook at home on your days off?",
+        "image": "/images/chef-home-cooking.jpg",
+        "answer": "Absolutely! Cooking at home is more relaxed and allows me to bond with my family."
+      },
+      {
+        "question": "What would your advice be to young people?",
+        "answer": "Stay humble, work hard, and learn every day."
+      },
+      {
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultricies odio."
+      },
+      {
+        "question": "Biggest misconception about being a chef?",
+        "answer": "It's not all glamour—there's a lot of pressure and long hours involved."
+      }
+    ]
+  },
+  {
+    "slug": "essential-kitchen-tools-beginner",
+    "title": "10 Essential Kitchen Tools Every Beginner Needs",
+    "author": {
+      "name": "Emily Chen",
+      "published_date": "2025-07-05"
+    },
+    "cover_image": "/blogImg/blog-img2.webp",
+    "intro": "Equip your kitchen with the right tools and make cooking easier from day one.",
+    "qa_sections": [
+      {
+        "question": "What's the most underrated kitchen tool?",
+        "answer": "A good pair of tongs. They're like extensions of your hands."
+      },
+      {
+        "question": "How important is a chef's knife?",
+        "answer": "It's absolutely critical—a high-quality knife makes everything easier."
+      },
+      {
+        "question": "Any tips for organizing tools?",
+        "answer": "Use wall-mounted racks or magnetic strips to save space."
+      },
+      {
+        "quote": "A well-equipped kitchen makes a confident cook."
+      }
+    ]
+  },
+  {
+    "slug": "fresh-ingredients-matter",
+    "title": "From Farm to Table: Why Fresh Ingredients Matter",
+    "author": {
+      "name": "Luca Moretti",
+      "published_date": "2025-06-28"
+    },
+    "cover_image": "/blogImg/blog-img3.webp",
+    "intro": "Discover how using locally sourced produce transforms taste and health.",
+    "qa_sections": [
+      {
+        "question": "What's the benefit of using fresh ingredients?",
+        "answer": "They retain more nutrients and offer deeper flavor."
+      },
+      {
+        "question": "How do you find local produce?",
+        "answer": "Farmers markets and seasonal produce guides are great resources."
+      },
+      {
+        "quote": "Freshness is the soul of flavor."
+      }
+    ]
+  },
+  {
+    "slug": "common-mistakes-amateur-cooks",
+    "title": "5 Common Mistakes Amateur Cooks Make (And How to Fix Them)",
+    "author": {
+      "name": "Maya Singh",
+      "published_date": "2025-06-20"
+    },
+    "cover_image": "/blogImg/blog-img4.webp",
+    "intro": "Avoid these pitfalls to become more confident in your kitchen.",
+    "qa_sections": [
+      {
+        "question": "What's mistake #1?",
+        "answer": "Not reading the recipe entirely before starting."
+      },
+      {
+        "question": "How about seasoning?",
+        "answer": "Most people under-season. Taste as you go!"
+      },
+      {
+        "question": "What else?",
+        "answer": "Overcrowding the pan leads to steaming instead of browning."
+      },
+      {
+        "quote": "Cooking is part science, part intuition."
+      }
+    ]
+  },
+  {
+    "slug": "day-in-life-sous-chef",
+    "title": "Day in the Life of a Restaurant Sous Chef",
+    "author": {
+      "name": "Carlos Rivera",
+      "published_date": "2025-06-15"
+    },
+    "cover_image": "/blogImg/blog-img5.webp",
+    "intro": "Step into a fast-paced kitchen and follow a sous chef through the chaos.",
+    "qa_sections": [
+      {
+        "question": "What's your day like?",
+        "answer": "I'm the bridge between the head chef and the line cooks. I manage prep, service, and solve problems on the fly."
+      },
+      {
+        "question": "Most stressful part?",
+        "answer": "Coordinating during the dinner rush. Timing is everything."
+      },
+      {
+        "quote": "It's organized chaos, but I love every second."
+      }
+    ]
+  },
+  {
+    "slug": "mastering-art-plating",
+    "title": "Mastering the Art of Plating: Visual Presentation Tips",
+    "author": {
+      "name": "Amelie Laurent",
+      "published_date": "2025-06-10"
+    },
+    "cover_image": "/blogImg/blog-img6.webp",
+    "intro": "Make your dishes not just taste great, but look stunning on the plate.",
+    "qa_sections": [
+      {
+        "question": "Why is plating important?",
+        "answer": "We eat with our eyes first. Presentation sets the stage."
+      },
+      {
+        "question": "Top plating tips?",
+        "answer": "Use odd numbers, vary height, and keep the plate clean."
+      },
+      {
+        "quote": "Plating is storytelling with food."
+      }
+    ]
+  },
+  {
+    "slug": "how-to-build-winning-restaurant-resume",
+    "title": "How to Build a Winning Restaurant Resume",
+    "author": {
+      "name": "Nina Patel",
+      "published_date": "2025-06-01"
+    },
+    "cover_image": "/blogImg/blog-img7.webp",
+    "intro": "Stand out in the restaurant industry with a resume that reflects your passion and skills.",
+    "qa_sections": [
+      {
+        "question": "What makes a chef resume stand out?",
+        "answer": "Clear skills, clean formatting, and strong references."
+      },
+      {
+        "question": "Should I include photos?",
+        "answer": "Only if requested—usually not necessary."
+      },
+      {
+        "quote": "Your resume is your first impression—make it count."
+      }
+    ]
+  }
+]

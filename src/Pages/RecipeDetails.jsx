@@ -9,6 +9,7 @@ import SubscribeSection from "../components/Cards/SubscribeSection";
 import { motion } from "framer-motion";
 import { useLoading } from "../hooks/useLoading";
 import { useEffect } from "react";
+import AsideSection from "../components/AsideSection";
 
 const containerVariants = {
   visible: {
@@ -52,7 +53,7 @@ const RecipeDetails = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 0.6, delay: 0.2, ease: "easeIn" }}
+      transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
       className="w-full max-w-[90%] mx-auto mt-20 px-4 py-6 printable"
     >
       <button
@@ -217,7 +218,7 @@ const RecipeDetails = () => {
         </div>
 
         {/* Right Column: Other Recipes */}
-        <aside className="max-h-[80vh] overflow-y-auto custom-scroll sticky top-50 bg-white p-4 rounded-xl shadow-lg">
+        {/* <aside className="max-h-[80vh] overflow-y-auto custom-scroll sticky top-50 bg-white p-4 rounded-xl shadow-lg">
           <h3 className="text-xl font-semibold mb-4">Other Recipes</h3>
           <ul className="space-y-4">
             {otherRecipes.map((item) => (
@@ -241,7 +242,8 @@ const RecipeDetails = () => {
               </motion.li>
             ))}
           </ul>
-        </aside>
+        </aside> */}
+        <AsideSection title={"Other Recipes"} />
       </div>
 
       <div className="mt-10 flex flex-col items-center">

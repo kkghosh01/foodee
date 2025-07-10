@@ -59,7 +59,7 @@ const SubscribeSection = () => {
           />
           <button
             type="submit"
-            className="bg-[#ff7426] text-white px-6 py-3 rounded-lg hover:bg-[#e66822] transition-colors duration-300"
+            className="bg-[#ff7426] cursor-pointer text-white px-6 py-3 rounded-lg hover:bg-[#e66822] transition-colors duration-300"
           >
             Subscribe
           </button>
