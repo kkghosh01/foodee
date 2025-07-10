@@ -8,6 +8,7 @@ import Recipes from "./Pages/Recipes";
 import Blog from "./Pages/Blog";
 import Contact from "./Pages/Contact";
 import RecipeDetails from "./Pages/RecipeDetails";
+
 function App() {
   return (
     <div className="overflow-x-hidden">

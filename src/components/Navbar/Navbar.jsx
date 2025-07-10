@@ -70,7 +70,7 @@ const Navbar = () => {
             {open ? <RxCrossCircled /> : <MdMenuOpen />}
           </div>
         </div>
-        <ResposiveMenu open={open} />
+        <ResposiveMenu open={open} NavLinks={NavLinks} setOpen={setOpen} />
       </section>
     </div>
   );

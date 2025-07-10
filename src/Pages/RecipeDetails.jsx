@@ -7,11 +7,13 @@ import { GiCampCookingPot } from "react-icons/gi";
 import SubscribeSection from "../components/Cards/SubscribeSection";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
+import { useLoading } from "../hooks/useLoading";
+import { useEffect } from "react";
 
 const containerVariants = {
   visible: {
     transition: {
-      staggerChildren: 0.1,
+      staggerChildren: 0.15,
     },
   },
   hidden: {},
@@ -23,9 +25,18 @@ const itemVariants = {
 };
 
 const RecipeDetails = () => {
+  const { setLoading } = useLoading();
   const { id } = useParams();
   const recipe = recipesData.find((r) => r.id === id);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    setLoading(true);
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 800); // Adjust the delay as needed
+    return () => clearTimeout(timer); // Cleanup the timer on component unmount
+  }, [setLoading]);
 
   if (!recipe) {
     return (
@@ -261,7 +272,7 @@ const RecipeDetails = () => {
         </div>
       </div>
 
-      <div className="mt-10">
+      <div className="mt-25">
         <SubscribeSection />
       </div>
     </motion.div>
