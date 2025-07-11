@@ -21,7 +21,7 @@ const Footer = () => {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      viewport={{ once: true, amount: 0.4 }}
+      viewport={{ once: true }}
     >
       <footer className="max-w-[90%] mx-auto px-6 py-10 flex flex-col md:flex-row justify-between items-center md:items-start gap-10 flex-wrap">
         {/* Logo Left */}
@@ -29,6 +29,7 @@ const Footer = () => {
           initial={{ opacity: 0, y: -40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
         >
           <Link to="/" onClick={scrollToTop}>
             <img src={foodeeImg} alt="Foodee Logo" className="w-28 md:w-32" />
@@ -41,6 +42,7 @@ const Footer = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.5 }}
+          viewport={{ once: true }}
         >
           <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
           <ul className="space-y-1">
@@ -64,6 +66,7 @@ const Footer = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.5 }}
+          viewport={{ once: true }}
         >
           <h3 className="text-lg font-semibold mb-2">Follow Us</h3>
           <ul className="space-y-1">
