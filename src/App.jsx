@@ -9,6 +9,7 @@ import Blog from "./Pages/Blog";
 import Contact from "./Pages/Contact";
 import RecipeDetails from "./Pages/RecipeDetails";
 import BlogDetails from "./Pages/BlogDetails";
+import NotFound from "./Pages/NotFound";
 
 function App() {
   return (
@@ -20,12 +21,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/recipes" element={<Recipes />} />
           <Route path="/recipes/:id" element={<RecipeDetails />} />
-          <Route path="*" element={<Recipes />} />
           <Route path="/blogs" element={<Blog />} />
           <Route path="/blogs/:slug" element={<BlogDetails />} />
-          <Route path="*" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
       <Footer />

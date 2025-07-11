@@ -52,7 +52,16 @@ const Navbar = () => {
           <ul className="flex gap-8 text-md">
             {NavLinks.map((link, index) => (
               <li key={index} className="hover:text-[#ff7426] transition">
-                <Link to={link.link} onClick={scrollToTop}>
+                <Link
+                  to={link.link}
+                  onClick={() => {
+                    if (window.location.pathname === link.link) {
+                      window.scrollTo({ top: 0, behavior: "smooth" });
+                    }
+                    scrollToTop(); // fallback for new routes
+                    setOpen(false); // mobile menu close
+                  }}
+                >
                   {link.name}
                 </Link>
               </li>

@@ -60,28 +60,29 @@ const RecipeCard = () => {
             className="bg-gradient-to-t from-regal-green to-regal-green-2 rounded-lg shadow-md p-4 flex flex-col justify-between hover:shadow-xl"
             variants={cardVariants}
           >
-            <div className="overflow-hidden rounded-t-lg">
-              <img
-                src={recipe.image}
-                alt={recipe.title}
-                className="w-full h-60 object-cover rounded-t-lg transition-transform hover:scale-105"
-                loading="lazy"
-              />
-            </div>
-            <Link
-              to={`/recipes/${recipe.id}`}
-              className="font-semibold text-xl hover:underline mt-2"
-            >
-              <h3>{recipe.title}</h3>
+            <Link to={`/recipes/${recipe.id}`}>
+              <div className="overflow-hidden rounded-t-lg">
+                <img
+                  src={recipe.image}
+                  alt={recipe.title}
+                  className="w-full h-60 object-cover rounded-t-lg transition-transform hover:scale-105"
+                  loading="lazy"
+                />
+              </div>
+
+              <h3 className="font-semibold text-xl hover:underline mt-2">
+                {recipe.title}
+              </h3>
+
+              <div className="flex justify-between items-center mt-6">
+                <span className="text-black flex items-center gap-1">
+                  <GiAlarmClock /> {recipe.prepTime} min
+                </span>
+                <span className="text-black flex items-center gap-1">
+                  <GiKnifeFork /> {recipe.category}
+                </span>
+              </div>
             </Link>
-            <div className="flex justify-between items-center mt-6">
-              <span className="text-black flex items-center gap-1">
-                <GiAlarmClock /> {recipe.prepTime} min
-              </span>
-              <span className="text-black flex items-center gap-1">
-                <GiKnifeFork /> {recipe.category}
-              </span>
-            </div>
           </motion.div>
         ))}
       </motion.div>

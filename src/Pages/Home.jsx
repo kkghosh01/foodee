@@ -14,10 +14,15 @@ const Home = () => {
   // Simulate loading delay (e.g., 2 seconds)
   useEffect(() => {
     setLoading(true);
+    document.body.style.overflowY = "hidden";
     const timer = setTimeout(() => {
       setLoading(false);
+      document.body.style.overflowY = "";
     }, 500); // Adjust the delay as needed
-    return () => clearTimeout(timer); // Cleanup the timer on component unmount
+    return () => {
+      clearTimeout(timer);
+      document.body.style.overflowY = "";
+    };
   }, [setLoading]);
 
   return (

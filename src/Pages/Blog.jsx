@@ -103,7 +103,7 @@ const Blog = () => {
               onChange={handleSearch}
               type="text"
               placeholder="Search articles, news or recipes..."
-              className="w-full px-4 py-2 pr-14 border border-gray-300 rounded-full shadow-sm focus:outline-none focus:ring-2 focus:ring-[#ff7426] transition"
+              className="w-full px-4 py-2 md:py-3 pr-14 border text-xs md:text-sm border-gray-300 rounded-full shadow-sm focus:outline-none focus:ring-2 focus:ring-[#ff7426] transition"
             />
             <button
               type="submit"
